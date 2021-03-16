@@ -65,7 +65,7 @@ module.exports = {
     },
     {
        icon:'',
-       url:'http://tes.co',
+       url:'http://tes.com',
        title:'정보처리기사',
        date:'Nov 2013'
     },
