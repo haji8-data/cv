@@ -1,12 +1,12 @@
 module.exports = {
   name: 'Jiyang Ha',
-  title: 'Data fullstack scientist',
+  title: 'Data Developer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Seoul, South Korea',
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
     GitHub: '<a href="https://github.com/haji8-data"><i class="fab fa-github fact-icon"></i> haji8-data </a>',
-    Email: '<a href="mailto:haji.8.na@gmail.com">haji.8.na@gmail.com</a>',
+    Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
   },
   skills: [
     ['python', '++'],

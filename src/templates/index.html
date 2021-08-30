@@ -104,12 +104,13 @@
     <h2>Release</h2>
     <ul>
         {{#each release}}
-        <i class="fab {{this.icon}}"></i>
+        <li><i class="fab {{this.icon}}"></i>
         [{{this.type}}]
         {{#if this.url}}
             <a href="{{this.url}}">
         {{/if}}
             {{this.title}}</a> - {{this.date}}
+        </li>
         {{/each}}
     </ul>
     {{/if}}
@@ -144,10 +145,12 @@
     <h2>Award</h2>
     <ul>
         {{#each award}}
+        <li><i class="fab {{this.icon}}"></i>
         {{#if this.url}}
-        <a href="{{this.url}}">
-            {{/if}}
-            {{this.title}}</a> - {{this.date}}
+            <a href="{{this.url}}">
+        {{/if}}
+        {{this.title}}</a> - {{this.date}}
+        </li>
         {{/each}}
     </ul>
     {{/if}}
