@@ -93,20 +93,22 @@
     {{/if}}
 
     <h2>Education</h2>
-    <div>
+    <ul>
       {{#each education}}
-      <p>{{ this.major }}. {{this.university}} [{{this.period}}]</p>
+        <i class="fab {{this.icon}}"></i>
+        {{ this.major }}. {{this.university}} [{{this.period}}]
       {{/each}}
-    </div>
+    </ul>
 
     {{#if release}}
     <h2>Release</h2>
     <ul>
         {{#each release}}
-        {{this.type}}
+        <i class="fab {{this.icon}}"></i>
+        [{{this.type}}]
         {{#if this.url}}
-        <a href="{{this.url}}">
-            {{/if}}
+            <a href="{{this.url}}">
+        {{/if}}
             {{this.title}}</a> - {{this.date}}
         {{/each}}
     </ul>
@@ -128,11 +130,13 @@
     <h2>Additional Experience</h2>
     <ul>
         {{#each addExperience}}
-        {{this.type}}
-        {{#if this.url}}
-        <a href="{{this.url}}">
+        <li><i class="fab {{this.icon}}"></i>
+            [{{this.type}}]
+            {{#if this.url}}
+                <a href="{{this.url}}">
             {{/if}}
             {{this.title}}</a> - {{this.date}}
+        </li>
         {{/each}}
     </ul>
     {{/if}}

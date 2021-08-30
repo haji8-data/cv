@@ -69,13 +69,13 @@ module.exports = {
   release:[
     {
       type:'thesis',
-      name:'PC Virtual I/O Device Development using Android Smartphone',
+      title:'PC Virtual I/O Device Development using Android Smartphone',
       url:'https://www.eiric.or.kr/literature/ser_view.php?SnxGubun=INKO&mode=total&searchCate=literature&gu=INME001E9&cmd=qryview&SnxIndxNum=152361&rownum=&totalCnt=1&rownum=1&q1_t=7JWI65Oc66Gc7J2065OcIOyKpOuniO2KuO2PsOydhCDsnbTsmqntlZwgUEMg6rCA7IOBIOyehey2nOugpSDs',
       date:'Jan 2013',
     },
     {
       type:'patent',
-      name:'Resource information management and data storage system through the management of the resource template',
+      title:'Resource information management and data storage system through the management of the resource template',
       url:'http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame&start=biblio&searchFg=N',
       date:'Dec 2015',
     }
