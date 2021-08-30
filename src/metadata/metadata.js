@@ -66,7 +66,7 @@ module.exports = {
       major:'Computer Software Engineering'
     }
   ],
-  Release:[
+  release:[
     {
       type:'thesis',
       name:'PC Virtual I/O Device Development using Android Smartphone',
@@ -107,40 +107,40 @@ module.exports = {
       date:'Mar 2020'
     },
   ],
-  AdditionalExperience:[
+  addExperience:[
     {
       type: 'activity',
-      name: '금오공과대학교 YMCA 봉사 동아리',
+      title: '금오공과대학교 YMCA 봉사 동아리',
       url: '',
       date: 'Mar 2010 ~ Feb 2013',
     },
     {
       type: 'activity',
-      name: '제 2 대 컴퓨터 소프트웨어 공학과 학생회, 회장',
+      title: '제 2 대 컴퓨터 소프트웨어 공학과 학생회, 회장',
       url: '',
       date: 'Mar 2013 ~ Feb 2014',
     },
     {
       type: 'theater',
-      name: '극단 빈공간, 한 여름밤의 꿈, 스누그역',
+      title: '극단 빈공간, 한 여름밤의 꿈, 스누그역',
       url: 'https://www.youtube.com/watch?v=gLPWCMX1eKs',
       date: 'Aug 2015',
     },
     {
       type: 'activity',
-      name: '코이카 해외 봉사단체, 국내 교육',
+      title: '코이카 해외 봉사단체, 국내 교육',
       url: '',
       date: 'Mar 2019 ~ Nov 2018',
     },
   ],
-  Award:[
+  award:[
     {
-      name: '캡스톤 디자인 경진 대회 장려-RMD for Android',
+      title: '캡스톤 디자인 경진 대회 장려-RMD for Android',
       url:'http://gmilbo.net/news/article.html?no=21412',
       date:'Nov 2011',
     },
     {
-      name: '캡스톤 디자인 경진 대회 금상-Bubble Finder',
+      title: '캡스톤 디자인 경진 대회 금상-Bubble Finder',
       url:'',
       date:'Nov 2012',
     },

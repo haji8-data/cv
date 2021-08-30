@@ -99,6 +99,19 @@
       {{/each}}
     </div>
 
+    {{#if release}}
+    <h2>Release</h2>
+    <ul>
+        {{#each release}}
+        {{this.type}}
+        {{#if this.url}}
+        <a href="{{this.url}}">
+            {{/if}}
+            {{this.title}}</a> - {{this.date}}
+        {{/each}}
+    </ul>
+    {{/if}}
+
     <h2>Certifications</h2>
     <ul>
        {{#each certifications}}
@@ -114,9 +127,24 @@
     {{#if addExperience}}
     <h2>Additional Experience</h2>
     <ul>
-    {{#each addExperience}}
-    <li>{{this}}</li>
-    {{/each}}
+        {{#each addExperience}}
+        {{this.type}}
+        {{#if this.url}}
+        <a href="{{this.url}}">
+            {{/if}}
+            {{this.title}}</a> - {{this.date}}
+        {{/each}}
+    </ul>
+    {{/if}}
+    {{#if award}}
+    <h2>Award</h2>
+    <ul>
+        {{#each award}}
+        {{#if this.url}}
+        <a href="{{this.url}}">
+            {{/if}}
+            {{this.title}}</a> - {{this.date}}
+        {{/each}}
     </ul>
     {{/if}}
 </div>
