@@ -65,8 +65,10 @@
             <p>{{ title }}</p>
             <p class="text-muted">{{ period }}</p>
 
-            <div>{{{markdown contents }}}</div>
-
+            <div>{{{ markdown contents }}}</div>
+            {{#each detail }}
+            <li>{{ this }}</li>
+            {{/each}}
             <p>
                 {{#each skills }}
                 <span class="badge badge-primary">{{ this }}</span>

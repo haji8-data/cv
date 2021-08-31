@@ -33,14 +33,16 @@ module.exports = {
       period: 'may 2020 - present',
       skills: ['JavaScript', 'NodeJs', 'mongodb', 'mysql', 'typescript','python','ElasticSearch','AWS QuickSight','AWS Data services'],
       contents: `발란 전사 데이터를 관리하는 데이터팀`,
+      detail: ['새로운 데이터 대시보드 구축과 검색 기능 개선, 데이터 수집 구조를 개발'],
     },
     {
       company: 'NAVER Corp',
       location: 'Bundang',
       title: 'Data Engineer',
       period: 'Jul 2016 - Aug 2018',
-      skills: ['Python','장고','hadoop','kafka','플럼','logstash','hive','클라데라','ElasticSearch','spark','java'],
+      skills: ['Python','django','hadoop','kafka','flume','logstash','hive','ElasticSearch','spark','java'],
       contents: `네이버 전사 동영상 로그를 수집하는 동영상 플랫폼팀 데이터 파트`,
+      detail: ['서버 관리, 데이터 처리, 인사이트 제공 업무, 어뷰징 처리'],
     },
     {
       company: 'WatchTek',
@@ -49,14 +51,7 @@ module.exports = {
       period: 'Mar 2014 - Apr 2016',
       skills: ['java','mybatis','spring','flex','sencha touch', 'codova', 'oracle','mysql','junit','Jenkins','Sonar Qube', 'MediaWiki'],
       contents: `관제 시스템의 코어부를 담당하는 신기술 파트`,
-    },
-    {
-      company: 'Soon Electronic',
-      location: 'Gumi',
-      title: 'Android Developer',
-      period: 'Mar 2013 - Feb 2014',
-      skills: ['안드로이드 어플 개발', '멀티미디어 압축/편집'],
-      contents: `안드로이드 어플 개발 담당`
+      detail: ['관제 시스템의 코어 단을 개발하고 유지보수 하는 업무, ibatis to mybatis migration, 소스 최적화 작업, problem debugging'],
     },
   ],
   education:[
