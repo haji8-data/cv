@@ -33,7 +33,8 @@ module.exports = {
       period: 'may 2020 - present',
       skills: ['JavaScript', 'NodeJs', 'mongodb', 'mysql', 'typescript','python','ElasticSearch','AWS QuickSight','AWS Data services'],
       contents: `발란 전사 데이터를 관리하는 데이터팀`,
-      detail: ['새로운 데이터 대시보드 구축과 검색 기능 개선, 데이터 수집 구조를 개발'],
+      detail: [
+      'OKR 대시보드 구축을 통한 매출 관리 포인트 강화','검색 랭킹 기능 등 검색 기능 개선을 통한 사용자 편의 제공','데이터 수집구조를 AWS를 이용하여 신규 구축하여 분석 포인트 증가'],
     },
     {
       company: 'NAVER Corp',
@@ -42,7 +43,7 @@ module.exports = {
       period: 'Jul 2016 - Aug 2018',
       skills: ['Python','django','hadoop','kafka','flume','logstash','hive','ElasticSearch','spark','java'],
       contents: `네이버 전사 동영상 로그를 수집하는 동영상 플랫폼팀 데이터 파트`,
-      detail: ['서버 관리, 데이터 처리, 인사이트 제공 업무, 어뷰징 처리'],
+      detail: ['ElasticSearch를 이용한 실시간 통계 파이프라인 구축','동영상 재생 데이터 등을 통계 대시보드로 구현','데이터 지표 확장을 통한 분석 포인트 증가','수집 데이터 전수 검사를 통한 데이터 정합성 향상', '재생 패턴에 따라 어뷰징 필터링 시스템 강화'],
     },
     {
       company: 'WatchTek',
@@ -51,7 +52,7 @@ module.exports = {
       period: 'Mar 2014 - Apr 2016',
       skills: ['java','mybatis','spring','flex','sencha touch', 'codova', 'oracle','mysql','junit','Jenkins','Sonar Qube', 'MediaWiki'],
       contents: `관제 시스템의 코어부를 담당하는 신기술 파트`,
-      detail: ['관제 시스템의 코어 단을 개발하고 유지보수 하는 업무, ibatis to mybatis migration, 소스 최적화 작업, problem debugging'],
+      detail: ['watchall 10의 공통 프로세스 이슈 처리','물리 네트워크를 네트워크 정보를 통해 연결 정보를 알아내는 선번장 개발(특허)','소스 품질 관리 시스템, WIKI 구축', '개발팀 신기술 파트 리더'],
     },
   ],
   education:[
