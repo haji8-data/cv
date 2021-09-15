@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Jiyang Ha',
-  title: 'Data Developer',
+  title: 'Data Engineer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Seoul, South Korea',
