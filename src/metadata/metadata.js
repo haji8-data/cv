@@ -34,7 +34,7 @@ module.exports = {
       skills: ['JavaScript', 'NodeJs', 'mongodb', 'mysql', 'typescript','python','ElasticSearch','AWS QuickSight','AWS Data services'],
       contents: `발란 전사 데이터를 관리하는 데이터팀`,
       detail: [
-      'OKR 대시보드 구축을 통한 매출 관리 포인트 강화','검색 랭킹 기능 등 검색 기능 개선을 통한 사용자 편의 제공','데이터 수집구조를 AWS를 이용하여 신규 구축하여 분석 포인트 증가'],
+      'OKR 대시보드 구축을 통한 매출 관리 포인트 강화','검색 랭킹 기능 등 검색 기능 개선을 통한 사용자 편의 제공','신규 사용자 검색 데이터 등을 AWS 파이프라인으로 구축'],
     },
     {
       company: 'NAVER Corp',
