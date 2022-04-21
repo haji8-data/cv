@@ -31,7 +31,7 @@ module.exports = {
       company: 'Looko',
       location: 'Gangnam',
       title: 'Data Enginner',
-      period: 'February 2021 - Present',
+      period: 'Sep 2021 - Present',
       skills: ['python', 'flask', 'Vue.js', 'mongodb', 'mariadb', 'postgrsql', 'Javascript'],
       contents: `패션 AI 모델을 연구하고 고도화 하는 AI팀`,
       detail: [
@@ -44,7 +44,7 @@ module.exports = {
       company: 'BALAAN',
       location: 'Nonhyeon',
       title: 'Data Developer',
-      period: 'may 2020 - Aug 2021',
+      period: 'may 2020 - Jul 2021',
       skills: ['JavaScript', 'NodeJs', 'mongodb', 'mysql', 'typescript','python','ElasticSearch','AWS QuickSight','AWS Data services'],
       contents: `발란 전사 데이터를 관리하는 데이터팀`,
       detail: [
