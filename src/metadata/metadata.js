@@ -53,7 +53,7 @@ module.exports = {
       period: 'Sep 2022 - Present',
       contents: `자체 소프트웨어 개발 및 외주`,
       detail: [
-        'ElasticSearch 1.4 data export batch',
+        'LG - ElasticSearch 1.4 data export batch',
         'react hospital dashboard 구현',
         'react 교육 및 개발자 영입',
         '정부 지원 사업 계획서 작성 - 하우 유어 비자 (하유비)'
