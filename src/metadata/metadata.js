@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'Jiyang Ha',
+  name: '하 ',
   title: 'Data Engineer',
   lang:'kor',
   facts: {
@@ -128,6 +128,18 @@ module.exports = {
     }
   ],
   release:[
+    {
+      type:'publications',
+      title:'가심비 AWS ElasticSearch Architecture',
+      url:'https://medium.com/@hajix/elasticsearch-8-2-%EC%84%A4%EC%B9%98-1c4149b92b3b',
+      date:'Jul 2022, aws.architecture.meetup.34회'
+    },
+    {
+      type:'publications',
+      title:'커머스 스타트업의 효율적인 데이터 분석 플랫폼 구축기',
+      url:'https://www.youtube.com/watch?v=j7O9RZDsacY',
+      date:'May 2021'
+    },
     {
       type:'patent',
       title:'Resource information management and data storage system through the management of the resource template',
