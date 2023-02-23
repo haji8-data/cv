@@ -11,27 +11,64 @@ module.exports = {
   skills: [
     ['python', '+++'],
     ['Javascript', '++'],
-    ['Vue.js', '++'],
-    ['flask', '++'],
-    ['postgrsql', '++'],
-    ['graphql', '+'],
     ['ElasticSearch', '+++'],
-    ['Athena', '+++'],
-    ['QuickSight', '+++'],
+    ['AWS', '++'],
     ['Firehose', '+++'],
-    ['SageMaker', '+++'],
     ['Hadoop', '++'],
-    ['Kafka', '++'],
-    ['Flume', '++'],
-    ['Mysql', '++'],
+    
+    
+    ['flask', '++'],
+    ['React', '+'],
+    ['graphql', '++'],
+    ['GCP', '+'],
+    ['SageMaker', '+++'],
+    ['hive', '++'],
+    
+    ['django', '++'],
+    ['Vue.js', '++'],
+    ['', ''],
+    ['QuickSight', '+++'],
+    ['Athena', '+++'],
+    ['impala', '++'],
+    
+    ['Mysql', '+++'],
     ['MongoDB', '++'],
+    ['postgrsql', '++'],
+    ['Kafka', '++'],
+    ['airflow', '++'],
+    ['Flume', '++'],
+    ['pyflink', '++']
   ],
   positions: [
+    {
+      company: 'The HAJI',
+      location: 'Gyeongsangdo',
+      period: 'Sep 2022 - Present',
+      contents: `자체 소프트웨어 개발 및 외주`,
+      detail: [
+        'ElasticSearch 1.4 data export batch',
+        'react hospital dashboard 구현',
+        'react 교육 및 개발자 영입',
+        '정부 지원 사업 계획서 작성 - 하우 유어 비자 (하유비)'
+      ],
+    },
+    {
+      company: 'Korea Data Space',
+      location: 'Gangnam',
+      title: 'Data Enginner',
+      period: 'Jun 2022 - Sep 2022',
+      skills: ['ElasticSearch', 'pyflink', 'GCP'],
+      contents: `vision을 활용한 공간 정보 AI 연구소`,
+      detail: [
+        'ElasticSearch를 활용한 대시보드 개편',
+        'pyflink data pipeline 구축'
+      ],
+    },
     {
       company: 'Looko',
       location: 'Gangnam',
       title: 'Data Enginner',
-      period: 'Sep 2021 - Present',
+      period: 'Sep 2021 - Jun 2022',
       skills: ['python', 'flask', 'Vue.js', 'mongodb', 'mariadb', 'postgrsql', 'Javascript'],
       contents: `패션 AI 모델을 연구하고 고도화 하는 AI팀`,
       detail: [
