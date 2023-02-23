@@ -14,30 +14,36 @@ module.exports = {
     ['ElasticSearch', '+++'],
     ['AWS', '++'],
     ['Firehose', '+++'],
-    ['Hadoop', '++'],
+    ['QuickSight', '+++'],
     
     
     ['flask', '++'],
     ['React', '+'],
     ['graphql', '++'],
-    ['GCP', '+'],
+    ['', ''],
+    ['Athena', '+++'],
     ['SageMaker', '+++'],
-    ['hive', '++'],
     
     ['django', '++'],
     ['Vue.js', '++'],
     ['', ''],
-    ['QuickSight', '+++'],
-    ['Athena', '+++'],
-    ['impala', '++'],
+    ['GCP', '+'],
+    ['', ''],
+    ['', ''],
     
+    ['Hadoop', '++'],
+    ['hive', '++'],
+    ['impala', '++'],
     ['Mysql', '+++'],
     ['MongoDB', '++'],
     ['postgrsql', '++'],
+    
     ['Kafka', '++'],
     ['airflow', '++'],
     ['Flume', '++'],
     ['pyflink', '++']
+    
+    
   ],
   positions: [
     {
@@ -138,7 +144,7 @@ module.exports = {
       type:'publications',
       title:'커머스 스타트업의 효율적인 데이터 분석 플랫폼 구축기',
       url:'https://www.youtube.com/watch?v=j7O9RZDsacY',
-      date:'May 2021'
+      date:'May 2021, AWS Summit Online Korea 2021'
     },
     {
       type:'patent',
