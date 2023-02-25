@@ -8,6 +8,7 @@ module.exports = {
     GitHub: '<a href="https://github.com/haji8-de"><i class="fab fa-github fact-icon"></i> haji8-de </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
      'English CV':'<a href="https://haji8-de.github.io/cv_eng/"><i class="fab fa-file-text-o fact-icon"></i>CV_Eng</a>',
+    Portfolio: '<a href="https://haji8-de.github.io/portfolio/"><i class="fab fa-github fact-icon"></i> Portfolio </a>',
   },
   skills: [
     ['python', '+++'],
