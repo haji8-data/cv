@@ -130,12 +130,23 @@ module.exports = {
   ],
   education:[
     {
+      period:'2023.03 ~ 04',
+      university:'POSCO Startup Incubating School',
+      major:'23 years 2nd 20th'
+    },
+    {
       period:'2010 - 2014',
       university:'Kumoh National Institute of Technology',
       major:'Computer Software Engineering'
     }
   ],
   release:[
+    {
+      type:'publications',
+      title:'The HAJI : a language learning and career development space',
+      url:'https://tcs-asia.org/en/programs/program.php?forums=F1560230836&year=2023',
+      date:'May 2023, Trilateral Entrepreneurs Forum - 2023'
+    },
     {
       type:'publications',
       title:'가심비 AWS ElasticSearch Architecture',
