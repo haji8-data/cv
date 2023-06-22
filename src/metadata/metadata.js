@@ -130,11 +130,6 @@ module.exports = {
   ],
   education:[
     {
-      period:'2023.03 ~ 04',
-      university:'POSCO Startup Incubating School',
-      major:'23 years 2nd 20th'
-    },
-    {
       period:'2010 - 2014',
       university:'Kumoh National Institute of Technology',
       major:'Computer Software Engineering'
@@ -175,7 +170,13 @@ module.exports = {
   certifications:[
     {
       icon:'',
-      url:'hhttps://coursera.org/share/a3eec63e1a35bcc206a98a58567e0b2d',
+      url:'https://youth.posco.com/posco/edu/index.php?mod=incubator&pag=incubator01',
+      title:'POSCO Startup Incubating School',
+      major:'Apr 2023'
+    },
+    {
+      icon:'',
+      url:'https://coursera.org/share/a3eec63e1a35bcc206a98a58567e0b2d',
       title:'Coursera ML course',
       date:'Oct 2021'
     },
